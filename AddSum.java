@@ -15,5 +15,6 @@ public class AddSum
     num=num/10;
     }
     System.out.println(sum);
+    Sc.close();
     }
 }

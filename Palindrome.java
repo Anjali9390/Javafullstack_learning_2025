@@ -24,5 +24,6 @@ if(OriginalNum==reversedNum)
 else{
        System.out.println("this is not a palindrome");
 }
+Sc.close();
     }
 }
