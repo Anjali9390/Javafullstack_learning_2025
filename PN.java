@@ -7,11 +7,11 @@ import java.util.*;
         System.out.println("enter the positive andnegative numbers");
         int n=Sc.nextInt();
         if (n>0) {
-            System.out.println(" the is positive numbers");
+            System.out.println(" the is positive number");
              }
              else if (n<0)
              {
-           System.out.println(" the is negative numbers");
+           System.out.println(" the is negative number");
              }
              else
              {

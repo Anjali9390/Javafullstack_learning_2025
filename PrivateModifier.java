@@ -9,10 +9,10 @@ class one3
 }
 class two3 extends one3
 {
-    double b=19.2;
+    double a=19.2;
     public void demo2()
     {
-     b++;
+     a++;
      System.out.println("executing the demo2 method");
     }
 }
