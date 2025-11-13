@@ -7,16 +7,16 @@ public class Sumofdigits
         Scanner Sc=new Scanner(System.in);
         System.out.println("enter the number of digits");
         int a=Sc.nextInt();
-        int sum=0,rem;
+        int mul=0,rem;
         while(a>0)
         {
             rem=a%10;
             if(rem%2==0)
             {
-            sum=sum+rem;
+            mul=mul*rem;
             }
             a=a/10;
         }
-        System.out.println("sum of digits:"+sum);
+        System.out.println("mul of digits:"+mul);
     }
 }
