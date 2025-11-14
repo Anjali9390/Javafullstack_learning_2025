@@ -5,7 +5,7 @@ public class EvenoddArray
     public static void main(String[] args)
     {
         Scanner Sc=new Scanner(System.in);
-        System.out.println("enter the even and odd number");
+        System.out.println("enter the many numbers");
         int n=Sc.nextInt();
 
         int a[]=new int[n];
