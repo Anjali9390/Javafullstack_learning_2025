@@ -19,5 +19,6 @@ public class Addarraynumbers
         sum+=arr[i];
     }
 System.out.println("sum of the numbers="+sum);
+Sc.close();
 }
 }
