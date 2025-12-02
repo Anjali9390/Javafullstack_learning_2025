@@ -8,6 +8,7 @@ public class Mapinterface
         Students.put("Anjali",78);
         Students.put("Pramila",67);
         System.out.println(Students);
+        
 
     }
 }
