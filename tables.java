@@ -12,5 +12,6 @@ public class tables
         {
             System.out.println(n+"*"+i+"="+(n*i));
         }
+        Sc.close();
     }
 }
