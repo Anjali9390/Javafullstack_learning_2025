@@ -1,29 +1,19 @@
-interface one{
-    public void show();
+public class hello
+{
+    public static void main(String[]args)
+    {
+        int a=1;
+        for(int i=1;i<=5;i++)
+        {
+            for(int s=1;s<=2*i-1;s++)
+            {
+                System.out.print(" ");
+            }
+            for(int j=i;j<=5;j++)
+            {
+                System.out.print(" * ");
+            }
+        System.out.println(" ");
+        }
+    }
 }
-    interface two  extends one
-    {
-  public void demo();
-    }
-    class three implements two,one
-    {
-        public void show()
-        {
-            System.out.println("this is show method");
-        }
-        public void demo()
-        {
-            System.out.println("this is demo method");
-        }
-    }
-
-    public class Hello
-    {
-        public static void main(String[]args)
-        {
-            three obj=new three();
-            obj.show();
-            obj.demo();
-        }
-
-    }
