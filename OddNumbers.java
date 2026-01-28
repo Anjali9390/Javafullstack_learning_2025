@@ -6,7 +6,7 @@ public class OddNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
         int n = sc.nextInt();
-
+      
         while(n > 0) {
             int digit = n % 10;   // extract last digit
 
