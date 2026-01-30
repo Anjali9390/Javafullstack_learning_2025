@@ -3,7 +3,7 @@ import java.util.*;
 public class ArraylistS{
     public static void main(String args[])
     {
-        ArrayList<Integer> elements=new ArrayList<>();
+        ArrayListss<Integer> elements=new ArrayListss<>();
 
         elements.add(90);
         elements.add(80);

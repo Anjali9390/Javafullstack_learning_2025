@@ -4,7 +4,7 @@ public class ArraylistRD
 {
     public static void main(String[]args)
     {
-        ArrayList<Integer> elements=new ArrayList<>();
+        ArrayListss<Integer> elements=new ArrayListss<>();
 
         elements.add(90);
         elements.add(80);
@@ -14,7 +14,7 @@ public class ArraylistRD
 
       Set<Integer> Set=new TreeSet<>(elements);
 
-      ArrayList<Integer>uniqeSet=new ArrayList<>(Set);
+      ArrayListss<Integer>uniqeSet=new ArrayListss<>(Set);
 
       System.out.println("remove the dupilcates elements"+uniqeSet);
     }

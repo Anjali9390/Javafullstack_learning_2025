@@ -4,7 +4,7 @@ public class Arraylistreverse
 {
     public static void main(String[]args)
     {
-        ArrayList<String> Students=new ArrayList<>();
+        ArrayListss<String> Students=new ArrayListss<>();
         Students.add("rama");
         Students.add("venky");
         Students.add("siri");
